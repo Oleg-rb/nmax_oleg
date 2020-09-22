@@ -1,0 +1,9 @@
+
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+$LOAD_PATH << './lib'
+
+require 'nmax_oleg'
+
+puts NmaxOleg.get(stdin: STDIN, count: ARGV[0].to_i)
