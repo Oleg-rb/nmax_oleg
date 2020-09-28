@@ -1,0 +1,2 @@
+require 'nmax'
+require 'rubygems'

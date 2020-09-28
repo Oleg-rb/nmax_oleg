@@ -2,9 +2,10 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-$LOAD_PATH << './lib'
+#$LOAD_PATH << './lib'
 
 require 'nmax'
 
-puts 'Hi 1'
-puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)
+puts 'Hi 2'
+#puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)
+puts Nmax.nmax

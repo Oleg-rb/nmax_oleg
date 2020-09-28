@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require 'rake/testtask'
+require "bundler/gem_tasks"
+require "rspec/core/rake_task"
 
-Rake::TestTask.new :default do |test|
-  test.pattern = 'test/**/*_test.rb'
-end
+RSpec::Core::RakeTask.new(:spec)
+
+task :default => :spec
