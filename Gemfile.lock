@@ -95,10 +95,10 @@ PLATFORMS
 
 DEPENDENCIES
   nmax_oleg!
-  rake (~> 13.0, >= 13.0.1)
-  rspec (~> 3.9)
-  rubocop (~> 0.92.0)
-  travis (~> 1.10)
+  rake
+  rspec
+  rubocop
+  travis
 
 BUNDLED WITH
    2.1.4
