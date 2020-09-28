@@ -1,4 +1,4 @@
-require "nmax_oleg/version"
+require "nmax/version"
 
 module NmaxOleg
   def self.nmax(file, n)
