@@ -4,9 +4,9 @@ require_relative 'test_helper'
 require 'tempfile'
 
 # rubocop:disable Metrics/BlockLength
-describe NmaxOleg do
+describe Nmax do
   it 'should get 2 max numbers from readed file' do
-    assert_equal `cat #{Bundler.root}/test/fixtures/text_with_numbers.txt | #{Bundler.root}/bin/nmax_oleg 2}`, "22\n30\n"
+    assert_equal `cat #{Bundler.root}/test/fixtures/text_with_numbers.txt | #{Bundler.root}/bin/nmax 2}`, "22\n30\n"
   end
 
   def memstats
@@ -41,7 +41,7 @@ describe NmaxOleg do
         end
 
       should_alllocate_less_then_killobytes(allocation_size) do |file, count|
-        NmaxOleg.get(stdin: file, count: count, method: :faster)
+        Nmax.get(stdin: file, count: count, method: :faster)
       end
     end
   end
@@ -60,7 +60,7 @@ describe NmaxOleg do
         end
 
       should_alllocate_less_then_killobytes(allocation_size) do |file, count|
-        NmaxOleg.get(stdin: file, count: count, method: :beautiful)
+        Nmax.get(stdin: file, count: count, method: :beautiful)
       end
     end
   end

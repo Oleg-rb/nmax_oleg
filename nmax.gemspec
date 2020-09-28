@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require './lib/nmax_oleg/version'
+require './lib/nmax/version'
 
-Gem::Specification.new 'nmax_oleg', NmaxOleg::VERSION do |s|
+Gem::Specification.new 'nmax_oleg', Nmax::VERSION do |s|
   s.homepage    = 'http://rubygems.org/gems/nmax_oleg'
   s.date        = '2020-09-22'
   s.summary     = 'NmaxOleg'

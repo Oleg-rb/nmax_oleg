@@ -4,6 +4,7 @@
 
 $LOAD_PATH << './lib'
 
-require 'nmax_oleg'
+require 'nmax'
 
-puts NmaxOleg.get(stdin: STDIN, count: ARGV[0].to_i)
+puts 'Hi 1'
+puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)

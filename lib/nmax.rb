@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-module NmaxOleg
-  autoload :VERSION, 'nmax_oleg/version'
+module Nmax
+  autoload :VERSION, 'nmax/version'
 
   class << self
     def get(stdin:, count:, method: :faster)
