@@ -2,9 +2,10 @@
 
 source 'https://rubygems.org'
 
+ruby '2.7.0'
 gemspec
 
-gem 'rubocop', '~> 0.92.0'
-gem 'travis', '~> 1.10'
-gem 'rspec', '~> 3.9'
-gem 'rake', '~> 13.0', '>= 13.0.1'
+gem 'rubocop'
+gem 'travis'
+gem 'rspec'
+gem 'rake'
