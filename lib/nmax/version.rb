@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module Nmax
+module NmaxOleg
   VERSION = '0.1.3'
 end

@@ -8,4 +8,4 @@ require 'nmax'
 
 puts 'Hi 2'
 #puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)
-puts Nmax.nmax
+puts NmaxOleg.nmax
