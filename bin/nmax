@@ -6,6 +6,6 @@
 
 require 'nmax'
 
-puts 'Hi 2'
+puts 'Hi 3'
 #puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)
-puts NmaxOleg.nmax
+puts NmaxOleg.nmax (ARGV[0], ARGV[1])
