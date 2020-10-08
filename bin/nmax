@@ -1,11 +1,4 @@
-
-#!/usr/bin/env ruby
-# frozen_string_literal: true
-
-#$LOAD_PATH << './lib'
-
 require 'nmax'
 
 puts 'Hi 0.2.0'
-#puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)
 NmaxOleg.nmax
