@@ -1,4 +1,5 @@
 require 'nmax'
 
-puts 'Hi 0.2.0'
-NmaxOleg.nmax
+n = ARGV[0].to_i
+
+NmaxOleg.nmax($stdin, n)

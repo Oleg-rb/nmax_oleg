@@ -3,7 +3,7 @@
 require File.expand_path('../lib/nmax/version', __FILE__)
 
 Gem::Specification.new 'nmax_oleg', NmaxOleg::VERSION do |s|
-  s.date          = '2020-09-28'
+  s.date          = '2020-10-28'
   s.summary       = 'nmax_oleg is a simple gem for finding numbers in text'
   s.description   = 'Program finds n greatest numbers from the input text.'
   s.author        = 'Oleg Stepanov'
