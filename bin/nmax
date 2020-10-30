@@ -1,5 +1,7 @@
 require 'nmax'
 
+puts "Hi nmax_oleg!"
+
 n = ARGV[0].to_i
 
 NmaxOleg.nmax($stdin, n)
