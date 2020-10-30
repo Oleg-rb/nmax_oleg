@@ -21,6 +21,7 @@ GEM
       ruby2_keywords
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
+    ffi (1.13.1-java)
     gh (0.18.0)
       activesupport (~> 5.0)
       addressable (~> 2.4)
@@ -33,9 +34,13 @@ GEM
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     json (2.3.1)
+    json (2.3.1-java)
     json_pure (2.3.1)
     launchy (2.4.3)
       addressable (~> 2.3)
+    launchy (2.4.3-java)
+      addressable (~> 2.3)
+      spoon (~> 0.0.1)
     minitest (5.14.2)
     multi_json (1.15.0)
     multipart-post (2.1.1)
@@ -58,7 +63,7 @@ GEM
       rspec-mocks (~> 3.9.0)
     rspec-core (3.9.3)
       rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.3)
+    rspec-expectations (3.9.4)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-mocks (3.9.1)
@@ -78,7 +83,10 @@ GEM
       parser (>= 2.7.1.5)
     ruby-progressbar (1.10.1)
     ruby2_keywords (0.0.2)
+    spoon (0.0.6)
+      ffi
     thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
     travis (1.10.0)
       faraday (~> 1.0)
       faraday_middleware (~> 1.0)
@@ -93,7 +101,11 @@ GEM
     websocket (1.2.8)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   nmax_oleg!
