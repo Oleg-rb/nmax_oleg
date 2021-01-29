@@ -1,2 +1,12 @@
 # nmax_oleg
-Program finds n greatest numbers from the input text
+Программа находит n наибольших чисел из введенного текста
+
+Пример использования:
+
+gem install nmax_oleg
+
+cat a.txt | nmax n
+
+a.txt - имя файла содержащего числа
+
+n - количество чисел выводимое на экран в порядке убывания
